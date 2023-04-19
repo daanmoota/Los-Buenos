@@ -5,7 +5,6 @@ import reportWebVitals from "./reportWebVitals"
 import * as serviceWorker from "./serviceWorker"
 import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
-import Home from "./telas/Home"
 import App from "./App"
 
 

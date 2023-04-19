@@ -13,9 +13,10 @@ interface LinkItemProps {
 }
 
 const LinkItems: Array<LinkItemProps> = [
-  { name: 'Início', icon: FiHome, rota: '/' },
-  { name: 'Cadastro', icon: FiTrendingUp, rota: '/cadastro' },
-  { name: 'Cardapio', icon: FiCompass, rota: '/cardapio' },
+  { name: 'Hambúrguers', icon: FiHome, rota: '/' },
+  { name: 'Acompanhamentos', icon: FiTrendingUp, rota: '/acompanhamentos' },
+  { name: 'Bebidas', icon: FiCompass, rota: '/bebidas' },
+  { name: 'Sobremesas', icon: FiCompass, rota: '/sobremesas' }
 ];
 
 export default function Navbar({ children }: { children: ReactNode }) {
@@ -80,7 +81,7 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
       {...rest}>
       <ColorModeSwitcher />
       <Flex h="20" alignItems="center" mx="8" justifyContent="space-between">
-        <img src={imagens.logoDois} />
+        <img src={imagens.logoDois} width='95%'/>
         <CloseButton display={{ base: 'flex', md: 'none' }} onClick={onClose} />
       </Flex>
       <div style={{ height: '60px' }} />
