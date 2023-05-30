@@ -1,5 +1,8 @@
-function Carrinho() {
-    return <h1>Carrinho</h1>
+
+export default function Carrinho() {
+  return(
+    <p className="text-5xl font-bold">Oi</p>
+  )
 }
 
-export default Carrinho
+

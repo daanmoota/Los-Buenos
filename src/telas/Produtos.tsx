@@ -20,6 +20,6 @@ const megaBueno = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNfluw6
         <Cards src={megaBueno} titulo='Vegano' descricao='Hambúrguer de 100 gramas de grão de bico, queijo mussarela, alface, tomate, cebola roxa, maionese vegana e pão brioche' preco='R$ 29,00' linkCompra='/Compra' linkCarrinho='/Carrinho'/>
         <Cards src={megaBueno} titulo='Vegano' descricao='Hambúrguer de 100 gramas de grão de bico, queijo mussarela, alface, tomate, cebola roxa, maionese vegana e pão brioche' preco='R$ 29,00' linkCompra='/Compra' linkCarrinho='/Carrinho'/>
         <Cards src={megaBueno} titulo='Vegano' descricao='Hambúrguer de 100 gramas de grão de bico, queijo mussarela, alface, tomate, cebola roxa, maionese vegana e pão brioche' preco='R$ 29,00' linkCompra='/Compra' linkCarrinho='/Carrinho'/>
-      </div>
+        </div>
     );
   }

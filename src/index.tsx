@@ -5,7 +5,9 @@ import reportWebVitals from "./reportWebVitals"
 import * as serviceWorker from "./serviceWorker"
 import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
-import App from "./App"
+import App from "./App";
+import Carrinho from "./telas/Carrinho";
+import Success from "./telas/Exito"
 
 
 const container = document.getElementById("root")
@@ -16,7 +18,7 @@ root.render(
   <BrowserRouter>
     <React.StrictMode>
     <ColorModeScript />
-    <App />
+    <Carrinho />
   </React.StrictMode>
   </BrowserRouter>
 

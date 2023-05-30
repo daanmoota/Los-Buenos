@@ -81,7 +81,7 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
       {...rest}>
       <ColorModeSwitcher />
       <Flex h="20" alignItems="center" mx="8" justifyContent="space-between">
-        <img src={imagens.logoDois} width='95%'/>
+        <img src={imagens.logo} width='95%'/>
         <CloseButton display={{ base: 'flex', md: 'none' }} onClick={onClose} />
       </Flex>
       <div style={{ height: '60px' }} />
